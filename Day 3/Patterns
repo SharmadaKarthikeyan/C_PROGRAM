@@ -1,0 +1,230 @@
+Base1
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("*");
+    }
+}
+
+Base2
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("*");
+    }
+}
+
+Base3
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n-row;col++)
+        printf("*");
+    }
+}
+
+Base4
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<2*row-1;col++)
+        printf("*");
+    }
+}
+
+Base5
+ #include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row-1;col++)
+        printf(" ");
+        for(col=0;col<n;col++)
+        printf("*");
+    }
+}
+
+Base6
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n-row-1;col++)
+        printf(" ");
+        for(col=0;col<n;col++)
+        printf("*");
+    }
+}
+  
+Base7
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n-row-1;col++)
+        printf(" ");
+        for(col=0;col<=row;col++)
+        printf("*");
+    }
+}
+  
+Base8
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("*");
+        for(col=0;col<n-row-1;col++)
+        printf(" ");
+        for(col=0;col<=row;col++)
+        printf("*");
+    }
+}
+  
+Base9
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("1");
+    }
+}
+  
+Base10
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("%d ",row+1);
+    }
+}
+  
+Base11
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("%d ",col+1);
+    }
+}
+  
+Base12
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("%d ",col+1);
+    }
+}
+  
+Base13
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n-row;col++)
+        printf("%d ",col+1);
+    }
+}
+  
+Base14
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n-row;col++)
+        printf("%d ",n-col);
+    }
+}
+  
+Base15
+#include<stdio.h>
+int main()
+{
+    int n,row,col,c=1;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("%d ",c++);
+    }
+}
+  
+Base16
+#include<stdio.h>
+int main()
+{
+    int n,row,col,c=1;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("%d ",c++);
+    }
+}
+  
+Base17
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("%d ",row+1);
+    }
+}
